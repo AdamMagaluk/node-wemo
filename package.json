@@ -1,17 +1,31 @@
 {
-  "name": "wemo",
-  "version": "0.1.0",
-  "author": {
-    "name": "hecomi",
-    "email": "info@hecomi.com"
-  },
+  "name": "wemo-js",
+  "version": "0.1.1",
+  "author": "hecomi <info@hecomi.com>",
   "main": "wemo",
   "dependencies": {
-	"node-ssdp": "0.2.1",
-	"request": "*",
-	"xml2js": "*"
+    "node-ssdp": "0.2.1",
+    "request": "^2.40.0",
+    "xml2js": "^0.4.4"
   },
-  "readmeFilename": "README.md",
-  "_id": "wemo@0.0.9",
-  "description": "WeMo client"
+  "description": "WeMo client - fork from wemo to fix the known issues with sspd.",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AdamMagaluk/node-wemo.git"
+  },
+  "keywords": [
+    "wemo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamMagaluk/node-wemo/issues"
+  },
+  "homepage": "https://github.com/AdamMagaluk/node-wemo"
 }
