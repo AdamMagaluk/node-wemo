@@ -1,6 +1,6 @@
 {
   "name": "wemo-js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "hecomi <info@hecomi.com>",
   "main": "wemo",
   "dependencies": {
