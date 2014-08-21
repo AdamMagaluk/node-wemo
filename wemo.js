@@ -23,7 +23,6 @@ WeMo.Search = function(friendlyName, callback) {
   client.setMaxListeners(0);
   client.on('response', function (msg, rinfo) {
     if (msg.ST === WeMo.ST) {
-      console.log('found wemo')
       var location = url.parse(msg.LOCATION);
       request.get(location.href, function(err, res, xml) {
 	xml2js.parseString(xml, function(err, json) {
