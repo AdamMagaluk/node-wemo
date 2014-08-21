@@ -4,7 +4,7 @@
   "author": "hecomi <info@hecomi.com>",
   "main": "wemo",
   "dependencies": {
-    "node-ssdp": "0.2.1",
+    "node-ssdp": "^2.0.1",
     "request": "^2.40.0",
     "xml2js": "^0.4.4"
   },
